@@ -1,0 +1,26 @@
+{
+  "moons": {
+    "logistic": 0.7916666666666666,
+    "rbf_svm": 1.0,
+    "q_kernel_angle": 0.7916666666666666,
+    "q_kernel_zz": 0.75
+  },
+  "circles": {
+    "logistic": 0.4166666666666667,
+    "rbf_svm": 1.0,
+    "q_kernel_angle": 1.0,
+    "q_kernel_zz": 0.75
+  },
+  "iris": {
+    "logistic": 1.0,
+    "rbf_svm": 1.0,
+    "q_kernel_angle": 1.0,
+    "q_kernel_zz": 0.9333333333333333
+  },
+  "planted": {
+    "logistic": 0.6111111111111112,
+    "rbf_svm": 0.8055555555555556,
+    "q_kernel_angle": 0.7777777777777778,
+    "q_kernel_zz": 0.9444444444444444
+  }
+}

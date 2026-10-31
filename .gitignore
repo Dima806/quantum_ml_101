@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+.llm/
+.agents/
+agent/
+.claude/skills/
+# Notebook execution smoke-test output (make notebooks, no --inplace)
+*.nbconvert.ipynb

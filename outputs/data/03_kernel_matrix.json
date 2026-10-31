@@ -1,0 +1,5 @@
+{
+  "symmetric": true,
+  "unit_diagonal": true,
+  "min_eigenvalue": -2.319085243946708e-15
+}

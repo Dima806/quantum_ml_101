@@ -1,0 +1,25 @@
+{
+  "landmarks": {
+    "10": {
+      "bytes": 16384,
+      "human": "0.0 MB"
+    },
+    "20": {
+      "bytes": 16777216,
+      "human": "16.8 MB"
+    },
+    "26": {
+      "bytes": 1073741824,
+      "human": "1073.7 MB"
+    },
+    "30": {
+      "bytes": 17179869184,
+      "human": "0.0 TB"
+    },
+    "40": {
+      "bytes": 17592186044416,
+      "human": "17.6 TB"
+    }
+  },
+  "note": "40 qubits is ~17.6 TB of complex128 amplitudes, more than any single machine holds."
+}

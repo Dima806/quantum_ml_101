@@ -1,0 +1,13 @@
+{
+  "comfortable_demo_qubits": "16-18",
+  "hard_statevector_ceiling_qubits": 29,
+  "keyless_local_libraries": [
+    "pennylane + lightning",
+    "qiskit + aer",
+    "from-scratch numpy"
+  ],
+  "needs_account": [
+    "real quantum hardware (QPUs)"
+  ],
+  "out_of_scope": "QPUs, cloud queues, device noise"
+}

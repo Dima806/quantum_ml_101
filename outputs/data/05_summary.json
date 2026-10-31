@@ -1,0 +1,12 @@
+{
+  "phenomenon": "barren plateau",
+  "measured": "gradient variance decays ~0.52x per qubit (exponential)",
+  "is_a_bug": false,
+  "reference": "McClean et al., Nature Communications (2018)",
+  "mitigations": [
+    "shallow circuits",
+    "local cost functions",
+    "structured ansatze",
+    "identity-block init"
+  ]
+}

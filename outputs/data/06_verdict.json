@@ -1,0 +1,45 @@
+{
+  "thesis": "A quantum circuit is a 2^N complex vector acted on by matrix-multiply gates; quantum-kernel SVMs and VQCs are matched or beaten by classical baselines on runnable data; the barren plateau is the measured reason deep VQCs do not train.",
+  "real_today": [
+    "the ideas and the math (small linear algebra)",
+    "from-scratch simulation matching PennyLane to machine precision",
+    "quantum kernels as legitimate PSD kernels",
+    "small-scale behavior of VQCs trained by gradient descent"
+  ],
+  "hype": [
+    "beating classical models on ordinary data at runnable scale",
+    "scaling a random deep VQC to force an advantage"
+  ],
+  "measured": {
+    "simulator_vs_pennylane_worst_case": 0.0,
+    "memory_20q": "16.8 MB",
+    "memory_26q": "1073.7 MB",
+    "arena_best_classical_vs_quantum": {
+      "moons": {
+        "classical": 1.0,
+        "quantum": 0.7916666666666666
+      },
+      "circles": {
+        "classical": 1.0,
+        "quantum": 1.0
+      },
+      "iris": {
+        "classical": 1.0,
+        "quantum": 1.0
+      },
+      "planted": {
+        "classical": 0.8055555555555556,
+        "quantum": 0.9444444444444444
+      }
+    },
+    "planted_exception": {
+      "quantum_zz_accuracy": 0.9444444444444444,
+      "best_classical_accuracy": 0.8055555555555556,
+      "quantum_wins": true,
+      "caveat": "The planted set was constructed to suit the ZZ feature map via the ad hoc observable rule (labels linear in the fidelity-kernel feature space). This is an engineered exception, not a general quantum advantage."
+    },
+    "barren_decay_per_qubit": 0.5210088877986986,
+    "barren_collapse_factor": 54.43864527302576
+  },
+  "rule": "Always run the classical baseline."
+}

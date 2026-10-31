@@ -1,0 +1,6 @@
+{
+  "quantum_zz_accuracy": 0.9444444444444444,
+  "best_classical_accuracy": 0.8055555555555556,
+  "quantum_wins": true,
+  "caveat": "The planted set was constructed to suit the ZZ feature map via the ad hoc observable rule (labels linear in the fidelity-kernel feature space). This is an engineered exception, not a general quantum advantage."
+}

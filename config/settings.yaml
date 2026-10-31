@@ -1,0 +1,17 @@
+# Project configuration: qubit counts, circuit depths, datasets, seeds.
+# Loaded by src/config.py (pydantic). Keep demo sizes small — this all runs
+# on a 2-CPU / 8 GB CPU-only machine.
+seed: 42
+
+sim:
+  max_qubits_demo: 16        # ~16 MB of statevector at 20 qubits; stay well below the wall
+
+data:
+  n_samples: 200
+  noise: 0.2
+  test_size: 0.3
+
+barren:
+  qubit_counts: [2, 4, 6]    # watch Var(dC/dtheta) collapse as this grows
+  n_layers: 10
+  n_samples: 120
